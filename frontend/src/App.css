@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .header {
+    margin-bottom: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
   }
-}
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.input {
+    padding: 8px;
+    margin: 10px 0px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+    font-size: 16px; /* Adjust font size */
+    width: 100%; /* Make the input element 100% wide */
+    box-sizing: border-box; /* Include padding and border in element width */
+  }
+  
+  /* Style when the input element is focused (clicked or selected) */
+  .input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  .h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .coffee-selection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .coffee-details {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .coffee-details span {
+    font-weight: bold;
+  }
+  
+  .coffee-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .coffee-details li {
+    margin-bottom: 8px;
+  }
+
+  .coffee-button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #6F4E37;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s ease-out;
+  }
+
+  .coffee-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer button {
+    margin: 20px;
+    padding: 14px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .footer button:hover {
+    background-color: #0056b3;
+  }
